@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Disappearing Ninja</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('img').click(function() {
+                    $(this).hide(1000);
+                })
+                $('#btn').click(function() {
+                    $('img').show(2000);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1>JQuery - assingment 1</h1>
+            <div class="row">
+                <img src="ninja.png" alt="ninja.png" style="background-color: lightblue;"/>
+                <img src="ninja.png" alt="ninja.png" style="background-color: lightcoral"/>
+                <img src="ninja.png" alt="ninja.png" style="background-color: lightyellow"/>
+                <img src="ninja.png" alt="ninja.png" style="background-color: lightgreen"/>
+                <img src="ninja.png" alt="ninja.png" style="background-color: lightsalmon"/>
+                <img src="ninja.png" alt="ninja.png" style="background-color: lightslategray"/>
+                <img src="ninja.png" alt="ninja.png" style="background-color: lightgray"/>
+                <img src="ninja.png" alt="ninja.png" style="background-color: lightseagreen"/>
+            </div>
+            <input type="button" value="Restore" id="btn" />
+        </div>
+    </body>
+</html>

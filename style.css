@@ -1,0 +1,38 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.wrapper{
+    width: 517px;
+    height: 350px;
+    margin: 50px auto;
+    padding: 10px;
+    background-color:#ECD6B6;
+    box-shadow: 5px 5px 5px #1E1F23;
+}
+
+.row{
+    margin-top: 25px;
+    height: 260px;
+    width: 516px;
+    
+}
+img{
+    border: 3px solid black;
+    margin: 10px 10px;
+    height: 100px;
+    width: 100px;
+}
+
+input[type=button]{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #8BB4C8;
+    border-color: #1A242D;
+    padding: 2px;
+    font-weight:500;
+}
